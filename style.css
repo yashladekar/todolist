@@ -149,3 +149,49 @@ form button:hover {
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+
+/* select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select {
+    /* margin: 1rem; */
+
+
+/* position: relative; */
+
+
+/* overflow: hidden; */
+
+
+/* }
+select {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 255, 196, 0.7);
+    /* width: 7rem; */
+
+
+/* cursor: pointer;
+    padding: 1.1rem;
+    font-family: "Poppins";
+}
+.select::after {
+    color: white;
+    content: "\25BC";
+    position: absolute;
+    background: rgba(0, 255, 196, 0.7);
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.select:hover::after {
+    background-color: white;
+    color: rgb(231, 65, 151);
+} */
