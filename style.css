@@ -195,3 +195,11 @@ select {
     background-color: white;
     color: rgb(231, 65, 151);
 } */
+
+@media screen and (max-width: 500px) {
+    form input,
+    form button {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+}
