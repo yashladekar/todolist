@@ -59,6 +59,10 @@ form {
     box-sizing: border-box;
 }
 
+.fromdiv {
+    max-width: 85%;
+}
+
 form input,
 form button {
     padding: 0.5rem;
@@ -196,10 +200,33 @@ select {
     color: rgb(231, 65, 151);
 } */
 
-@media screen and (max-width: 500px) {
+@media (max-width:400px) {
+    .fromdiv {
+        max-width: 90%;
+    }
     form input,
     form button {
         padding: 0.5rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+    form input:focus {
+        padding: 0.35rem;
+        outline: none;
+        border: solid 2px #ea95e0;
+    }
+    .todo {
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 0.1rem;
+    }
+    form button:hover {
+        background: white;
+        color: rgb(231, 65, 151);
+    }
+    .complete-btn,
+    .trash-btn {
+        padding: 7.5px;
     }
 }
