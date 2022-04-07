@@ -200,7 +200,7 @@ select {
     color: rgb(231, 65, 151);
 } */
 
-@media (max-width:400px) {
+@media (max-width:350px) {
     .fromdiv {
         max-width: 90%;
     }
