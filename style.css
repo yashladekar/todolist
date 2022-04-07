@@ -63,7 +63,14 @@ form {
     max-width: 85%;
 }
 
-form input,
+form input {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: transparent;
+    background: rgb(231 181 207 / 56%);
+    width: 80%;
+}
+
 form button {
     padding: 0.5rem;
     font-size: 2rem;
@@ -154,8 +161,7 @@ form button:hover {
     opacity: 0.5;
 }
 
-
-/* select {
+select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -164,41 +170,37 @@ form button:hover {
 }
 
 .select {
-    /* margin: 1rem; */
+    margin: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
 
-
-/* position: relative; */
-
-
-/* overflow: hidden; */
-
-
-/* }
 select {
-    color: rgb(0, 0, 0);
-    background-color: rgba(0, 255, 196, 0.7);
-    /* width: 7rem; */
-
-
-/* cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(231 181 207 / 56%);
+    width: 8rem;
+    cursor: pointer;
     padding: 1.1rem;
     font-family: "Poppins";
+    font-size: 1rem;
 }
+
 .select::after {
     color: white;
     content: "\25BC";
     position: absolute;
-    background: rgba(0, 255, 196, 0.7);
+    background: rgb(231, 65, 151);
     right: 0;
     top: 0;
-    padding: 1rem;
+    padding: 1.1rem;
     pointer-events: none;
     transition: all 0.3s ease;
 }
+
 .select:hover::after {
     background-color: white;
     color: rgb(231, 65, 151);
-} */
+}
 
 @media (max-width:350px) {
     .fromdiv {
@@ -228,5 +230,11 @@ select {
     .complete-btn,
     .trash-btn {
         padding: 7.5px;
+    }
+    select {
+        padding: 0.8rem;
+    }
+    .select::after {
+        padding: 0.7rem;
     }
 }
